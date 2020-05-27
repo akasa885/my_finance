@@ -41,7 +41,7 @@ class loginFragment : Fragment(){
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == ADD_LOGIN_REQUEST && resultCode == Activity.RESULT_OK) {
-            Toast.makeText(activity,"berhasil",Toast.LENGTH_SHORT).show()
+            Toast.makeText(activity,"Success!",Toast.LENGTH_SHORT).show()
         }
     }
 }

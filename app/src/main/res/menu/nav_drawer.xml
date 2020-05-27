@@ -4,10 +4,10 @@
 
     <item
         android:id="@+id/setelanFragment"
-        android:icon="@drawable/ic_build_black_24dp"
+        android:icon="@drawable/icon_setting"
         android:title="Setting" />
     <item
         android:id="@+id/tentangFragment"
-        android:icon="@drawable/ic_subject_black_24dp"
+        android:icon="@drawable/icon_about"
         android:title="About" />
 </menu>

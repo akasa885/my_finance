@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         when (item.itemId){
             R.id.setelanFragment ->{
                 navController.navigate(R.id.action_homeFragment_to_setting)
-//                Toast.makeText(this, "Settingclicked", Toast.LENGTH_SHORT).show()
+//                Toast.makeText(this, "Setting clicked", Toast.LENGTH_SHORT).show()
             }
             R.id.tentangFragment ->{
                 navController.navigate(R.id.action_homeFragment_to_about)
